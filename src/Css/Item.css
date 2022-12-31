@@ -1,0 +1,37 @@
+:root{
+    --main-navbar-color: #472183;
+    --navbar-text-color : white;
+    --navbar-text-hover : #dbd3ff;
+    --navbar-text-white : #F1F6F5
+    
+}
+
+
+img{
+    padding: 1rem;
+    width: 15rem;
+    height: 20rem;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 8px 10px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    display: inline-block;
+    border-radius: 1rem;
+    padding: 1rem;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgb(95, 94, 94);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 1rem 0.5rem;
+  }
+
+  .main-container{
+    padding: 1rem;
+  }
